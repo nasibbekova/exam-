@@ -1,0 +1,12 @@
+{
+    "users": [
+      {
+        "id": 0.45498123,
+        "increase": false,
+        "rise": false,
+        "name": "madina",
+        "surname" : "nasibbekova",
+        "price": "1000"
+      }
+    ]
+  }

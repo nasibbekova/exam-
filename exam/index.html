@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="sass/style.scss">
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div class="con">
+    <div class="head">
+      <div class="head-info">
+        <h1>Учет сотрудников в компании Wepro</h1>
+        <h2 class="allEmployes">
+          Общее число сотрудников:
+        </h2>
+        <h2 class="premioum">
+          Премию получат:
+        </h2>
+      </div>
+    </div>
+
+    <div class="headTwo">
+      <div>
+        <input class="inpSearch" type="text" placeholder="Найти сотрудника" style="padding-left: 5px;">
+      </div>
+      <div>
+        <div class="btn">
+          <button type="button" class="btn-all-people ">Все сотрудники</button>
+          <button type="button" class="btn-decrease">На повышение</button>
+          <button type="button" class="btn-p ">З/П больше 1000$</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <ul class="ul">
+        <li>
+          <h4>Madina Nasibbekova</h4>
+          <div class="all-val">
+            <input class="price" type="number" value="2000$">
+            <button class="edite"><img src="./img/icons8-повышение-48.png" alt=""></button>
+            <button class="delete"><img src="./img/icons8-remove-48.png" alt=""></button>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="headTwo">
+      <div>
+        <h2>Добавить нового сотрудника</h2>
+      </div>
+      <form class="addPeople" name="add">
+        <input class="inp" type="text" placeholder="Как его зовут?">
+        <input class="inp" type="text" placeholder="З/П в $">
+        <button class="add">Добавить</button>
+      </form>
+    </div>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
